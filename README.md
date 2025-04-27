@@ -15,6 +15,7 @@ SQL-Assistant 是一个基于 [MCP协议](https://modelcontextprotocol.io/introd
   - [Linux](https://go.dev/dl/go1.24.2.linux-amd64.tar.gz)
 - vscode + cline 插件 (或其他可接入 MCP 服务的平台, 如 Claude Desktop、Gemini)
   - [vscode](https://code.visualstudio.com/)
+- [Chrome](https://www.google.com/intl/en_hk/chrome/)
 
 ### 下载
 ```
@@ -54,6 +55,13 @@ go install github.com/crazyfrankie/sqlassistant
 ![img.png](image/img3.png)
 
 选择想要使用的大模型, 并填入个人的 API Key
+
+仍然是该界面, 滑到最下方
+![img.png](image/img5.png)
+
+点击 `Relauch Browser with Debug Mode`, 并将上方 `Use Remote browser connection` 勾选.
+
+此时会打开一个新的 Chrome 界面, 在该界面上打开数据库做题网站, 并登录, 登录成功后即可, 后续过程中不能关闭该界面。
 ## 使用
 上述配置完成之后，来到聊天界面,
 ![img.png](image/img4.png)
